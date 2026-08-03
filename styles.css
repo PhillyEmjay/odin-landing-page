@@ -11,7 +11,11 @@ body {
     background-color: #1D5837;
 }
 
-.global a {
+.global .logo span {
+    color: #FFFFFF;
+}
+
+.global .logo {
     color: #EAB67B;
     font-size: 24px;
     font-weight: bold;
@@ -23,9 +27,11 @@ body {
     list-style-type: none;
 }
 
-.global nav li {
-    margin-left: 20px;
+.global nav a {
+    margin-left: 50px;
     color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .hero {
@@ -43,18 +49,21 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #EAB67B;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 35px;
 }
 
 .hero-text-wrapper p {
     font-size: 18px;
     color: #FFFFFF;
+    margin-bottom: 35px;
 }
 
-.placeholder {
+.hero img {
+    height: 450px;
+    width: auto;
+    border: solid black;
     flex: 1;
-    color: #E5E7EB;
-    background-color: grey;
 }
 
 .button-link {
@@ -114,7 +123,9 @@ figcaption {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    margin: 0;}
+    margin: 0;
+    text-align: justify;
+}
     
 .quote footer {
     font-size: 20px;
