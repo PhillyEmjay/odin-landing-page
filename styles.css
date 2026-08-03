@@ -1,0 +1,153 @@
+body {
+    font-family: Roboto, 'Times New Roman', Times, serif;
+}
+
+.global {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 300px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.global a {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.global nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.global nav li {
+    margin-left: 20px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    padding: 150px 300px;
+    background-color: #1F2937;
+    gap: 75px;
+}
+
+.hero-text-wrapper {
+    flex: 1;
+}
+
+.hero-text-wrapper h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-text-wrapper p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.placeholder {
+    flex: 1;
+    color: #E5E7EB;
+    background-color: grey;
+}
+
+.button-link {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.information {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.figure-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.image-fill {
+    border: thick solid #3882F6;
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+}
+
+.information figure {
+    width: 150px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;}
+    
+.quote footer {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 300px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 50px 100px;
+    color: #E5E7EB;
+}
+
+.action h2 {
+    margin: 0;
+}
+
+.action p {
+    margin: 0;
+}
+
+.action .button-link {
+    border: solid #E5E7EB;
+}
+
+.page-footer {
+    font-size: 18px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 50px 0px;
+    text-align: center;
+}
