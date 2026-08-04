@@ -1,14 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 body {
     margin: 0;
     font-family: Roboto, 'Times New Roman', Times, serif;
 }
 
 .global {
+    background-color: #1D5837;
+}
+
+.global .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 300px;
-    background-color: #1D5837;
+    padding: 10px 0;
+    
 }
 
 .global .logo span {
@@ -35,9 +48,12 @@ body {
 }
 
 .hero {
-    display: flex;
-    padding: 150px 300px;
     background-color: #1D5837;
+}
+
+.hero .container{
+    display: flex;
+    padding: 150px 0;
     gap: 75px;
 }
 
@@ -59,11 +75,16 @@ body {
     margin-bottom: 35px;
 }
 
-.hero img {
-    height: 450px;
-    width: auto;
-    border: solid black;
+.hero-image-wrapper {
     flex: 1;
+    min-width: 0;
+}
+
+
+.hero-image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border: solid black;
 }
 
 .button-link {
