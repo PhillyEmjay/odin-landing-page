@@ -115,7 +115,7 @@ body {
     justify-content: center;
 }
 
-.image-fill {
+.figure-wrapper img {
     border: thick solid #A45E79;
     border-radius: 12px;
     height: 150px;
@@ -156,18 +156,19 @@ figcaption {
 
 .action {
     background-color: #E5E7EB;
-    padding: 150px;
+    padding: 150px 0;
 }
 
 .action-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 300px;
     background-color: #A45E79;
     border-radius: 12px;
     padding: 50px 100px;
     color: #FFFFFF;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .action h2 {
