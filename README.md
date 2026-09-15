@@ -9,7 +9,7 @@ Second project on The Odin Project (TOP) using CSS and Flexbox to create a basic
 - world.jpg: [Gaël Gaborel, unsplash.com] (https://unsplash.com/photos/brown-and-black-globe-on-white-table-f7I8uEiYkag)
 - dog.jpg: [Asher Legg unsplash.com] (https://unsplash.com/photos/a-black-and-white-dog-laying-on-top-of-a-grass-covered-field-i5EcjBevb84)
 - keyboard.jpg: [Declan Sun unsplash.com] (https://unsplash.com/photos/a-close-up-of-a-keyboard-on-a-table-_bVwq4iU-VM)
-- library.jpg: [mk.s, unsplash.com](https://unsplash.com/photos/a-large-room-filled-with-lots-of-tables-and-chairs-RAcYNtQrcMs)
+- library.jpg: [mk.s unsplash.com] (https://unsplash.com/photos/a-large-room-filled-with-lots-of-tables-and-chairs-RAcYNtQrcMs)
 
 
 ## Reflection
